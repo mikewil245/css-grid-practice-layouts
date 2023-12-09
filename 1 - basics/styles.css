@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap");
 
 body {
   margin: 30px;
   font-family: "Poppins";
 }
 
-.grid-container{
+.grid-container {
   background-color: #eee;
   max-width: 900px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px 200px 300px;
   gap: 10px;
-justify-items: stretch; /* for columns*/
-align-items: stretch; /* For rows */
-
+  justify-items: stretch; /* for columns*/
+  align-items: stretch; /* For rows */
 }
 
 .grid-container > div {
@@ -29,7 +28,7 @@ align-items: stretch; /* For rows */
   grid-column: 1 / span 2;
 }
 
-.grid-container> div:nth-child(2) {
+.grid-container > div:nth-child(2) {
   grid-column: span 3;
 }
 
@@ -38,7 +37,7 @@ align-items: stretch; /* For rows */
 }
 
 .grid-container > div:nth-child(4) {
-  grid-column:  2 / 6 ;
+  grid-column: 2 / 6;
   align-self: end;
 }
 
@@ -51,6 +50,4 @@ align-items: stretch; /* For rows */
   justify-self: end;
   align-self: start;
 }
-
-
 
