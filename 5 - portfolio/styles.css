@@ -111,13 +111,13 @@ main {
   }
 }
 
-@media  screen and (max-width: 680px) {
-  main{
+@media screen and (max-width: 680px) {
+  main {
     grid-template-rows: 500px 600px 600px;
-  
   }
 
-  .panel.about, .panel.photos {
+  .panel.about,
+  .panel.photos {
     grid-template-columns: 1fr;
     grid-column: span 1;
     grid-template-rows: 1fr 1fr;
